@@ -12,9 +12,7 @@ public class Main{
             }
         }
     }
-
 //Função para o usuário consultar as vendas de um determinado produto
-
     public static void vendasProd(int [][] matriz, int produtos, int mes) {
         boolean loop = true;
 
@@ -32,14 +30,11 @@ public class Main{
             }
         }
     }
-
 //função principal principal
-
     public static void main(String[] args) {
 
         int produtosU, mesesU, escolha;
         int[][] matriz;
-
 // Entrada do usuário
         produtosU = Integer.parseInt(JOptionPane.showInputDialog("Quantos produtos quer cadastrar: "));
         mesesU = Integer.parseInt(JOptionPane.showInputDialog("Quantos meses deseja cadastrar: "));
